@@ -6,6 +6,7 @@ export default defineConfig({
   workers: 1,
   reporter: [
     ["junit", { outputFile: "report/results.xml" }],
+    ["./my-reporter.ts", { outputFile: "report/results.json" }],
+    ["list"],
   ],
-  //   reporter: "./my-reporter.ts",
 });

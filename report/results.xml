@@ -1,14 +1,16 @@
-<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="13.11093400001526">
-	<testsuite name="bar.spec.ts" timestamp="2023-04-28T07:38:23.805Z" hostname="" tests="1" failures="0" skipped="0" time="0.818" errors="0">
-		<testcase name="bar start › bar test" classname="bar.spec.ts" time="0.818">
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="10.257950000017882">
+	<testsuite name="folder1/folder2/bar.spec.ts" timestamp="2023-05-25T06:19:36.181Z" hostname="" tests="1" failures="0" skipped="0" time="1.523" errors="0">
+		<testcase name="bar start › bar test" classname="folder1/folder2/bar.spec.ts" time="1.523">
 		</testcase>
 	</testsuite>
-	<testsuite name="foo.spec.ts" timestamp="2023-04-28T07:38:23.805Z" hostname="" tests="3" failures="0" skipped="0" time="1.514" errors="0">
-		<testcase name="foo 1 start › basic 1.1 test" classname="foo.spec.ts" time="0.522">
+	<testsuite name="foo.spec.ts" timestamp="2023-05-25T06:19:36.181Z" hostname="" tests="4" failures="0" skipped="0" time="1.678" errors="0">
+		<testcase name="foo 1 start › basic 1.1 test" classname="foo.spec.ts" time="0.691">
 		</testcase>
-		<testcase name="foo 2 start › basic 2.1 test" classname="foo.spec.ts" time="0.496">
+		<testcase name="Depth1 › Depth2 › Depth3 › Depth4 › test depth" classname="foo.spec.ts" time="0.003">
 		</testcase>
-		<testcase name="foo 2 start › basic 2.2 test" classname="foo.spec.ts" time="0.496">
+		<testcase name="foo 2 start › basic 2.1 test" classname="foo.spec.ts" time="0.491">
+		</testcase>
+		<testcase name="foo 2 start › basic 2.2 test" classname="foo.spec.ts" time="0.493">
 		</testcase>
 	</testsuite>
 </testsuites>
